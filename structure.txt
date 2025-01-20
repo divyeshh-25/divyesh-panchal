@@ -1,0 +1,16 @@
+src/
+├── components/
+│   ├── Header.js
+│   ├── Hero.js
+│   ├── About.js
+│   ├── Projects.js
+│   ├── Footer.js
+├── assets/
+│   ├── png/
+│   ├── svg/
+├── styles/
+│   ├── global.css
+│   ├── Header.css
+│   ├── Hero.css
+│   ├── About.css
+│   ├── Projects.css

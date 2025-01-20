@@ -1,0 +1,39 @@
+{
+    "socialLinks": [
+        { 
+            "name": "LinkedIn", 
+            "link": "https://linkedin.com/in/username",
+            "logo": "assets/png/linkedin-ico.png",
+            "alt" : "Divyesh Panchal Linkedin Profile",
+            "img" : "assets/svg/linkedin-dark.svg"
+        },
+        { 
+            "name": "GitHub", 
+            "link": "https://github.com/username",
+            "logo": "assets/png/github-ico.png",
+            "alt" : "Divyesh Panchal Linkedin Profile",
+            "img" : "assets/svg/github-dark.svg"
+        },
+        { 
+            "name": "Twitter", 
+            "link": "https://twitter.com/username",
+            "logo": "assets/png/twitter-ico.png",
+            "alt" : "Divyesh Panchal Linkedin Profile",
+            "img" : "assets/svg/twitter-dark.svg"
+        },
+        { 
+            "name": "Dev", 
+            "link": "https://dev.to/username",
+            "logo": "assets/png/blog-ico.png",
+            "alt" : "Divyesh Panchal Linkedin Profile",
+            "img" : "assets/svg/book-dark.svg"
+        },
+        { 
+            "name": "Youtube", 
+            "link": "https://www.youtube.com/channel/username",
+            "logo": "assets/png/yt-ico.png",
+            "alt" : "Divyesh Panchal Linkedin Profile",
+            "img" : "assets/svg/yt-dark.svg"
+        }
+    ]
+}

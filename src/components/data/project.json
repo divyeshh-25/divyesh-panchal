@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "title": "Project Title 1",
+            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
+            "bannerImg": "assets/jpeg/wilsonport.jpeg",
+            "overviewHtml": "<p>This is the detailed overview of the project, including features and purpose.</p>",
+            "toolsUsed": ["Laravel", "Bootstrap", "MySQL"],
+            "projectLink": "https://example.com/project1"
+        },
+        {
+            "title": "Project Title 2",
+            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
+            "bannerImg": "assets/jpeg/boreal-coffee-clone.jpeg",
+            "overviewHtml": "<p>Details about this project in HTML format.</p>",
+            "toolsUsed": ["React", "Node.js", "MongoDB"],
+            "projectLink": "https://example.com/project2"
+        },
+        {
+            "title": "Project Title 3",
+            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
+            "bannerImg": "assets/jpeg/crown-template.jpeg",
+            "overviewHtml": "<p>Details about this project in HTML format.</p>",
+            "toolsUsed": ["React", "Node.js", "MongoDB"],
+            "projectLink": "https://example.com/project2"
+        },
+        {
+            "title": "Project Title 4",
+            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
+            "bannerImg": "assets/jpeg/dopefolio.jpeg",
+            "overviewHtml": "<p>Details about this project in HTML format.</p>",
+            "toolsUsed": ["React", "Node.js", "MongoDB"],
+            "projectLink": "https://example.com/project2"
+        }
+    ]
+}
