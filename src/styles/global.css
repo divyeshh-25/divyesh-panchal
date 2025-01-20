@@ -100,7 +100,7 @@ textarea {
     border-radius: 5px;
 }
 @media only screen and (max-width: 37.5em) {
-    .heading-sec__main: :after {
+    .heading-sec__main::after {
     top: calc(100% + 1.2rem);
 }
 }.heading-sec__sub {
