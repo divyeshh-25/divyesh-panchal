@@ -14,6 +14,12 @@ function App() {
   
   return (
     <div>
+      <Helmet>
+        <title>Home | My Website</title>
+        <meta name="description" content="Welcome to My Website, your go-to platform for amazing content." />
+        <meta name="keywords" content="React, SEO, React Helmet" />
+        <link rel="canonical" href="https://mywebsite.com/home" />
+      </Helmet>
       <Header />
       <Hero />
       <About />
