@@ -10,37 +10,37 @@ const Hero = () => {
     useEffect(() => {
         setSocial(socialMedia.socialLinks);
         setBanner(bannerContent.bannerSection);
-    });
+    },[]);
 
     return (
-        <section class="home-hero">
-                <div class="home-hero__content">
-                    <h1 class="heading-primary">{banner.title}</h1>
-                    <div class="home-hero__info">
-                        <p class="text-primary">
+        <section className="home-hero">
+                <div className="home-hero__content">
+                    <h1 className="heading-primary">{banner.title}</h1>
+                    <div className="home-hero__info">
+                        <p className="text-primary">
                            {banner.description}
                         </p>
                     </div>
-                    <div class="home-hero__cta">
-                        <a href="index.html#projects" class="btn btn--bg">Projects</a>
+                    <div className="home-hero__cta">
+                        <a href="index.html#projects" className="btn btn--bg">Projects</a>
                     </div>
                 </div>
-                <div class="home-hero__socials">
-                    {social.map((social) => (
-                        <div class="home-hero__social">
+                <div className="home-hero__socials">
+                    {social.map((social, index) => (
+                        <div className="home-hero__social" key={index}>
                             <a
                                 href={social.link}
                                 className="home-hero__social-icon-link"
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <img src={social.img} alt={social.alt} class="home-hero__social-icon"/>
+                                <img src={social.img} alt={social.alt} className="home-hero__social-icon"/>
                             </a>
                         </div>
                     ))}
                 </div>
-                <div class="home-hero__mouse-scroll-cont">
-                    <div class="mouse"></div>
+                <div className="home-hero__mouse-scroll-cont">
+                    <div className="mouse"></div>
                 </div>
         </section>
     );

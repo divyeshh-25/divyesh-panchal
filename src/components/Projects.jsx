@@ -6,7 +6,7 @@ const Projects = () => {
 
   useEffect(() => {
     setProjects(projectsData.projects);
-  });
+  },[]);
 
   return (
     <section id="projects" className="projects sec-pad">

@@ -6,27 +6,27 @@ const Footer = () => {
 
     useEffect(() => {
         setSocial(socialMedia.socialLinks);
-    });
+    },[]);
   
     return (
-        <footer class="main-footer">
-        <div class="main-container">
-            <div class="main-footer__upper">
-                <div class="main-footer__row main-footer__row-1">
-                    <h2 class="heading heading-sm main-footer__heading-sm">
+        <footer className="main-footer">
+        <div className="main-container">
+            <div className="main-footer__upper">
+                <div className="main-footer__row main-footer__row-1">
+                    <h2 className="heading heading-sm main-footer__heading-sm">
                         <span>Social</span>
                     </h2>
-                    <div class="main-footer__social-cont">
-                    {social.map((social) => (
-                        <a target="_blank" rel="noreferrer" href={social.link}>
-                            <img class="main-footer__icon" src={social.logo} alt={social.name}/>
+                    <div className="main-footer__social-cont">
+                    {social.map((social, index) => (
+                        <a target="_blank" rel="noreferrer" href={social.link} key={index}>
+                            <img className="main-footer__icon" src={social.logo} alt={social.name}/>
                         </a>
                     ))}
                     </div>
                 </div>
-                <div class="main-footer__row main-footer__row-2">
-                    <h2 class="heading heading-sm text-lt">Divyesh Panchal</h2>
-                    <p class="main-footer__short-desc">
+                <div className="main-footer__row main-footer__row-2">
+                    <h2 className="heading heading-sm text-lt">Divyesh Panchal</h2>
+                    <p className="main-footer__short-desc">
                         A Frontend focused Web Developer building the Frontend of Websites
         and Web Applications that leads to the success of the overall
         product
@@ -34,7 +34,7 @@ const Footer = () => {
                 </div>
             </div>
             {/* <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) --> */}
-            <div class="main-footer__lower">
+            <div className="main-footer__lower">
                 &copy; Copyright
                 <script>
         document.write(new Date().getFullYear());
