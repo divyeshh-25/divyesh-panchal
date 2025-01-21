@@ -808,3 +808,6 @@ textarea {
     top: 27px;
 }
 }
+.about__content-details-para a{
+    text-decoration: none;
+}

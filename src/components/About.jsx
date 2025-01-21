@@ -15,7 +15,7 @@ const About = () => {
         <h2 className="heading heading-sec heading-sec__mb-med">
             <span className="heading-sec__main">About Me</span>
             <span className="heading-sec__sub">
-                Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+            Discover more about me, my work, and the programming and technology skills I currently specialize in
             </span>
         </h2>
         <div className="about__content">
@@ -23,22 +23,13 @@ const About = () => {
                 <h3 className="about__content-title">Get to know me!</h3>
                 <div className="about__content-details">
                     <p className="about__content-details-para">
-                        I'm a <strong>Frontend Focused Web Developer</strong> building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
+                        I'm a <strong>Full Stack Web Developer</strong> specializing in building and managing websites and web applications to ensure impactful results. Explore some of my work in the <a href='#projects'><strong>Projects</strong></a> section.
                     </p>
                     <p className="about__content-details-para">
-                        I also like sharing content related to the stuff that I have learned over the years 
-                        in <strong>Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my
-                        <a rel="noreferrer" href="https://linkedin.com/in/rammcodes" target="_blank">
-                            Linkedin
-                        </a>
-                        and
-                        <a rel="noreferrer" href="https://instagram.com/rammcodes_" target="_blank">
-                            Instagram
-                        </a>
-                        where I post useful content related to Web Development and Programming
+                        Skilled in Laravel, CodeIgniter, WordPress, React, HTML, CSS, and JavaScript. I specialize in creating high-quality websites and web applications. My focus is on delivering solutions that drive success.
                     </p>
                     <p className="about__content-details-para">
-                        I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
+                        I am available to contribute, learn, and grow in new opportunities. If you have a role that aligns with my skills and experience, feel free to <a href='#contact'><strong>Reach Out</strong></a>
                     </p>
                 </div>
                 <a href="index.html#contact" className="btn btn--med btn--theme dynamicBgClr">

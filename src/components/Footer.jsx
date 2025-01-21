@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="main-footer__social-cont">
                     {social.map((social, index) => (
                         <a target="_blank" rel="noreferrer" href={social.link} key={index}>
-                            <img className="main-footer__icon" src={social.logo} alt={social.name}/>
+                            <img className="main-footer__icon" src={social.lightImg} alt={social.name}/>
                         </a>
                     ))}
                     </div>
@@ -27,23 +27,18 @@ const Footer = () => {
                 <div className="main-footer__row main-footer__row-2">
                     <h2 className="heading heading-sm text-lt">Divyesh Panchal</h2>
                     <p className="main-footer__short-desc">
-                        A Frontend focused Web Developer building the Frontend of Websites
-        and Web Applications that leads to the success of the overall
-        product
+                    A Full Stack Web Developer skilled in PHP frameworks like Laravel and CodeIgniter, CMS platforms like WordPress, and frontend technologies like React, HTML, CSS, JavaScript, and jQuery.
                     </p>
                 </div>
             </div>
             {/* <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) --> */}
             <div className="main-footer__lower">
-                &copy; Copyright
-                <script>
-        document.write(new Date().getFullYear());
-                </script>
-                . Made by
-                <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Divyesh Panchal
-                </a
-    >
+                &copy; Copyright {new Date().getFullYear()}. Made by
+                <a rel="noreferrer" target="_blank" href="https://divyesh-panchal.vercel.app">
+                    Divyesh Panchal
+                </a>
             </div>
+
         </div>
         </footer>
     );

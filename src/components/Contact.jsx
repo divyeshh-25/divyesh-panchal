@@ -7,8 +7,7 @@ const Contact = () => {
                 <h2 className="heading heading-sec heading-sec__mb-med">
                     <span className="heading-sec__main heading-sec__main--lt">Contact</span>
                     <span className="heading-sec__sub heading-sec__sub--lt">
-                        Feel free to Contact me by submitting the form below and I will get
-            back to you as soon as possible
+                        Don't hesitate to contact me by submitting the form below, and <br/> I'll respond as soon as possible.
                     </span>
                 </h2>
                 <div className="contact__form-container">

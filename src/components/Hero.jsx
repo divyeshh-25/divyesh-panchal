@@ -34,7 +34,7 @@ const Hero = () => {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <img src={social.img} alt={social.alt} className="home-hero__social-icon"/>
+                                <img src={social.darkImg} alt={social.alt} className="home-hero__social-icon"/>
                             </a>
                         </div>
                     ))}

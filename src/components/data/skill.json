@@ -3,11 +3,14 @@
         [
             "PHP",
             "Laravel",
+            "CodeIgniter",
+            "MySQL",
             "WordPress",
             "React",
             "JavaScript",
-            "MySQL",
             "CSS",
-            "HTML"
+            "HTML",
+            "Bootstrap",
+            "Tailwind"
         ]
 }

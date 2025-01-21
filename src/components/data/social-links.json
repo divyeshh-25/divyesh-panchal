@@ -1,39 +1,46 @@
 {
     "socialLinks": [
         { 
+            "name": "Whatsapp", 
+            "link": "https://wa.me/9157762508",
+            "lightImg": "assets/png/whatsapp-light.png",
+            "darkImg" : "assets/png/whatsapp.png",
+            "alt" : "Divyesh Panchal Whatsapp Profile"
+        },
+        { 
+            "name": "Skype", 
+            "link": "",
+            "lightImg": "assets/png/skype-light.png",
+            "darkImg" : "assets/png/skype.png",
+            "alt" : "Divyesh Panchal Skype Profile"
+        },
+        { 
             "name": "LinkedIn", 
-            "link": "https://linkedin.com/in/username",
-            "logo": "assets/png/linkedin-ico.png",
-            "alt" : "Divyesh Panchal Linkedin Profile",
-            "img" : "assets/svg/linkedin-dark.svg"
+            "link": "https://www.linkedin.com/in/divyeshhpanchal",
+            "lightImg": "assets/png/linkedin-light.png",
+            "darkImg" : "assets/png/linkedin.png",
+            "alt" : "Divyesh Panchal Linkedin Profile"
         },
         { 
             "name": "GitHub", 
-            "link": "https://github.com/username",
-            "logo": "assets/png/github-ico.png",
-            "alt" : "Divyesh Panchal Linkedin Profile",
-            "img" : "assets/svg/github-dark.svg"
+            "link": "https://github.com/divyeshh-25",
+            "lightImg": "assets/png/github-light.png",
+            "darkImg" : "assets/png/github.png",
+            "alt" : "Divyesh Panchal Github Profile"
+        },
+        { 
+            "name": "Instagram", 
+            "link": "https://www.instagram.com/divyeshh_25",
+            "lightImg": "assets/png/instagram-light.png",
+            "darkImg" : "assets/png/instagram.png",
+            "alt" : "Divyesh Panchal Instagram Profile"
         },
         { 
             "name": "Twitter", 
-            "link": "https://twitter.com/username",
-            "logo": "assets/png/twitter-ico.png",
-            "alt" : "Divyesh Panchal Linkedin Profile",
-            "img" : "assets/svg/twitter-dark.svg"
-        },
-        { 
-            "name": "Dev", 
-            "link": "https://dev.to/username",
-            "logo": "assets/png/blog-ico.png",
-            "alt" : "Divyesh Panchal Linkedin Profile",
-            "img" : "assets/svg/book-dark.svg"
-        },
-        { 
-            "name": "Youtube", 
-            "link": "https://www.youtube.com/channel/username",
-            "logo": "assets/png/yt-ico.png",
-            "alt" : "Divyesh Panchal Linkedin Profile",
-            "img" : "assets/svg/yt-dark.svg"
+            "link": "https://x.com/divyeshh_25",
+            "lightImg": "assets/png/twitter-light.png",
+            "darkImg" : "assets/png/twitter.png",
+            "alt" : "Divyesh Panchal Twitter Profile"
         }
     ]
 }
