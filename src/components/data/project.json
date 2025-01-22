@@ -1,36 +1,31 @@
 {
     "projects": [
         {
-            "title": "Project Title 1",
-            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
-            "bannerImg": "assets/jpeg/wilsonport.jpeg",
-            "overviewHtml": "<p>This is the detailed overview of the project, including features and purpose.</p>",
-            "toolsUsed": ["Laravel", "Bootstrap", "MySQL"],
-            "projectLink": "https://example.com/project1"
+            "id": "desksters",
+            "title": "Desksters - Your one-stop solution for social media needs",
+            "shortDescription": "Desksters is a service-based platform offering maintenance services, fire safety, and more. Built with Laravel, it features e-commerce functionality, secure PayPal payment integration, Zoom for virtual consultations, and Chatify for live support, ensuring a seamless user experience.",
+            "bannerImg": "assets/png/projects/desksters.png",
+            "overviewHtml": "<p>Desksters is a versatile service platform providing maintenance and fire safety solutions. It includes e-commerce features for users to purchase plans and manage orders. Key integrations like PayPal for secure payments, Zoom for virtual consultations, and Chatify for real-time support ensure an interactive user experience.</p><p>The main challenges included designing a secure and scalable platform that supports diverse services, enables seamless payment processing, facilitates virtual consultations, and offers efficient customer support via live chat.</p>",
+            "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "Paypal","Zoom integration", "Chatify for live chat"],
+            "projectLink": "https://desksters.com/"
         },
         {
-            "title": "Project Title 2",
-            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
-            "bannerImg": "assets/jpeg/boreal-coffee-clone.jpeg",
-            "overviewHtml": "<p>Details about this project in HTML format.</p>",
-            "toolsUsed": ["React", "Node.js", "MongoDB"],
-            "projectLink": "https://example.com/project2"
+            "id": "rajasthan-travels",
+            "title": "Rajasthan Travels",
+            "shortDescription": "I developed a comprehensive project for Rajasthan Travels, enabling users to book cabs, tempos, and tours seamlessly. The backend system allows for efficient management of tours, cab drivers, user accounts, tempos, and travel routes, ensuring smooth operations and enhanced user experience",
+            "bannerImg": "assets/png/projects/rajasthan-travels.png",
+            "overviewHtml": "<p>This project was developed for Rajasthan Travels, providing a seamless platform for booking cabs, tempos, and tours. The system is designed to enhance the travel experience for users while streamlining backend operations. Key features include:</p><ul><li><b>User Booking System:</b> Users can effortlessly book cabs, tempos, and customized tours. The booking process includes route selection, vehicle type preferences, and payment integration for a hassle-free experience.</li><li><b>Backend Management:</b>A robust admin panel empowers the team to manage tours, cab drivers, user accounts, tempos, and travel routes. The backend ensures data consistency, real-time updates, and centralized management.</li><li><b>Booking Management:</b>Admins can view, approve, or modify bookings. It also includes tools to handle cancellations, refunds, and booking schedules.</li><li><b>CMS Management:</b>Enables easy updating of website content such as tour packages, vehicle availability, FAQs, and customer testimonials, ensuring the frontend stays dynamic and user-focused.</li><li><b>Operational Efficiency:</b>Simplified management processes ensure smooth operations, better resource utilization, and enhanced service delivery.</li></ul>",
+            "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
+            "projectLink": "https://avichaltechnolabs.com/"
         },
         {
-            "title": "Project Title 3",
-            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
-            "bannerImg": "assets/jpeg/crown-template.jpeg",
-            "overviewHtml": "<p>Details about this project in HTML format.</p>",
+            "id": "avichal-technolabs",
+            "title": "Avichal Technolabs",
+            "shortDescription": "Avichal Technolabs is a custom-built WordPress website developed using Bootstrap, HTML, CSS, and custom theme development. Designed for a graphic designing company, the website serves as a digital stemline, showcasing their creative expertise and service offerings.",
+            "bannerImg": "assets/png/projects/avichal-technolabs.png",
+            "overviewHtml": "<p>Avichal Techno Labs was founded with a passion for building innovative software solutions that drive business growth. The website reflects this vision, focusing on a seamless user experience and a modern, visually appealing design. Key highlights include:</p><ul><li><b>Custom Theme Development:</b> Tailored WordPress theme to align with the company's branding and design requirements.</li><li><b>Responsive Design:</b> Built with Bootstrap to ensure the site adapts to all devices and screen sizes.</li><li><b>Feature-Rich CMS:</b> Integrated with WordPress for easy management of content, portfolios, and service updates.</li><li><b>Showcasing Expertise:</b> Highlights the company's focus on innovation, speed, and quality for businesses embracing digital transformation.</li></ul>",
             "toolsUsed": ["React", "Node.js", "MongoDB"],
-            "projectLink": "https://example.com/project2"
-        },
-        {
-            "title": "Project Title 4",
-            "shortDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolor unde assumenda nulla atque possimus quia harum corrupti ipsam fuga facere inventore, ullam distinctio optio incidunt pariatur deserunt dignissimos, provident libero.",
-            "bannerImg": "assets/jpeg/dopefolio.jpeg",
-            "overviewHtml": "<p>Details about this project in HTML format.</p>",
-            "toolsUsed": ["React", "Node.js", "MongoDB"],
-            "projectLink": "https://example.com/project2"
+            "projectLink": "https://staging.rajasthantravels.net/"
         }
     ]
 }

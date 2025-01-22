@@ -9,7 +9,7 @@
         },
         { 
             "name": "Skype", 
-            "link": "",
+            "link": "https://join.skype.com/invite/uoXCBijyN3wL",
             "lightImg": "assets/png/skype-light.png",
             "darkImg" : "assets/png/skype.png",
             "alt" : "Divyesh Panchal Skype Profile"
@@ -40,6 +40,13 @@
             "link": "https://x.com/divyeshh_25",
             "lightImg": "assets/png/twitter-light.png",
             "darkImg" : "assets/png/twitter.png",
+            "alt" : "Divyesh Panchal Twitter Profile"
+        },
+        { 
+            "name": "Canva", 
+            "link": "https://divyesh-portfolio.my.canva.site/",
+            "lightImg": "assets/png/canva.png",
+            "darkImg" : "assets/png/canva.png",
             "alt" : "Divyesh Panchal Twitter Profile"
         }
     ]
