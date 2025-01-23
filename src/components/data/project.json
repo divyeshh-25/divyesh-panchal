@@ -36,7 +36,7 @@
             "shortTitle": "Personal Portfolio",
             "shortDescription": "The Personal Portfolio is a custom-built React website designed using Bootstrap, HTML, CSS, and a bespoke theme. It serves as a digital cornerstone, showcasing creative expertise, professional achievements, and service offerings in a visually compelling and user-friendly manner.",
             "bannerImg": "assets/png/projects/divyesh-panchal.png",
-            "overviewHtml": "<p>My Personal Portfolio is a dedicated platform to showcase my skills, work, learning journey, and professional capabilities in one place.</p><p>Skilled in Laravel, CodeIgniter, WordPress, React, HTML, CSS, and JavaScript, I specialize in developing high-quality websites and web applications. My goal is to deliver innovative solutions that empower success and exceed expectations.</p>",
+            "overviewHtml": "<p>The Personal Portfolio is a custom-built React website designed using Bootstrap, HTML, CSS, and a bespoke theme. It serves as a digital cornerstone, showcasing creative expertise, professional achievements, and service offerings in a visually compelling and user-friendly manner.</p><p>My Personal Portfolio is a dedicated platform to showcase my skills, work, learning journey, and professional capabilities in one place.</p><p>Skilled in Laravel, CodeIgniter, WordPress, React, HTML, CSS, and JavaScript, I specialize in developing high-quality websites and web applications. My goal is to deliver innovative solutions that empower success and exceed expectations.</p>",
             "toolsUsed": ["React", "HTML", "Javascript", "Bootstrap", "CSS"],
             "projectLink": "https://divyesh-panchal.vercel.app/"
         }
