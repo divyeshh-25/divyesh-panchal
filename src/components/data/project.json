@@ -27,8 +27,19 @@
             "shortDescription": "Avichal Technolabs is a custom-built WordPress website developed using Bootstrap, HTML, CSS, and custom theme development. Designed for a graphic designing company, the website serves as a digital stemline, showcasing their creative expertise and service offerings.",
             "bannerImg": "assets/png/projects/avichal-technolabs.png",
             "overviewHtml": "<p>Avichal Techno Labs was founded with a passion for building innovative software solutions that drive business growth. The website reflects this vision, focusing on a seamless user experience and a modern, visually appealing design. Key highlights include:</p><ul><li><b>Custom Theme Development:</b> Tailored WordPress theme to align with the company's branding and design requirements.</li><li><b>Responsive Design:</b> Built with Bootstrap to ensure the site adapts to all devices and screen sizes.</li><li><b>Feature-Rich CMS:</b> Integrated with WordPress for easy management of content, portfolios, and service updates.</li><li><b>Showcasing Expertise:</b> Highlights the company's focus on innovation, speed, and quality for businesses embracing digital transformation.</li></ul>",
-            "toolsUsed": ["React", "Node.js", "MongoDB"],
+            "toolsUsed": ["Wordpress", "Custom Theme Development", "Custom Plugin Development", "MySQL", "HTML", "CSS", "Bootstrap"],
             "projectLink": "https://staging.rajasthantravels.net/"
+        },
+        {
+            "id": "divyesh-panchal",
+            "title": "Personal Portfolio",
+            "shortTitle": "Personal Portfolio",
+            "shortDescription": "The Personal Portfolio is a custom-built React website designed using Bootstrap, HTML, CSS, and a bespoke theme. It serves as a digital cornerstone, showcasing creative expertise, professional achievements, and service offerings in a visually compelling and user-friendly manner.",
+            "bannerImg": "assets/png/projects/divyesh-panchal.png",
+            "overviewHtml": "<p>My Personal Portfolio is a dedicated platform to showcase my skills, work, learning journey, and professional capabilities in one place.</p><p>Skilled in Laravel, CodeIgniter, WordPress, React, HTML, CSS, and JavaScript, I specialize in developing high-quality websites and web applications. My goal is to deliver innovative solutions that empower success and exceed expectations.</p>",
+            "toolsUsed": ["React", "HTML", "Javascript", "Bootstrap", "CSS"],
+            "projectLink": "https://divyesh-panchal.vercel.app/"
         }
+        
     ]
 }
