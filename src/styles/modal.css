@@ -199,6 +199,11 @@
         margin-top: 15px;
         margin-left: 38px;
       }
+      .modal-dialog .close-modal {
+        width: 36px;
+        height: 36px;
+        top: 1.5rem;
+      }
   
   }
   
