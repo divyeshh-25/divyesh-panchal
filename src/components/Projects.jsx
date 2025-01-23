@@ -1,12 +1,24 @@
-import React, { useEffect, useState } from 'react';
-import projectsData from './data/project.json';
+import React, { useEffect, useState } from "react";
+import projectsData from "./data/project.json";
+import ProjectModal from "./ProjectModal"; // Import Modal component
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
     setProjects(projectsData.projects);
-  },[]);
+  }, []);
+
+  const openModal = (project) => {
+    setSelectedProject(project);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <section id="projects" className="projects sec-pad">
@@ -31,20 +43,25 @@ const Projects = () => {
               </div>
               <div className="projects__row-content">
                 <h3 className="projects__row-content-title">{project.title}</h3>
-                <p className="projects__row-content-desc">{project.shortDescription}</p>
-                <a
-                  className="btn btn--med btn--theme dynamicBgClr"
-                  href={project.projectLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <p className="projects__row-content-desc">
+                  {project.shortDescription}
+                </p>
+                <button
+                  className="btn btn--med btn--theme dynamicBgClr open-modal"
+                  onClick={() => openModal(project)} // Open modal with specific project data
                 >
                   Case Study
-                </a>
+                </button>
               </div>
             </div>
           ))}
         </div>
       </div>
+      <ProjectModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        project={selectedProject}
+      />
     </section>
   );
 };

@@ -5,10 +5,10 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import './styles/global.css';
-import './script/index.js';
+import './styles/modal.css';
+import './script/global.js';
 import Contact from './components/Contact.jsx';
-
-
+// index.js
 
 function App() {
   

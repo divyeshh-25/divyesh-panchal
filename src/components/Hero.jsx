@@ -22,7 +22,7 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="home-hero__cta">
-                        <a href="index.html#projects" className="btn btn--bg">Projects</a>
+                        <a href="#projects" className="btn btn--bg">Projects</a>
                     </div>
                 </div>
                 <div className="home-hero__socials">
