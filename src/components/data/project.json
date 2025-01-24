@@ -39,6 +39,16 @@
             "overviewHtml": "<p>The Personal Portfolio is a custom-built React website designed using Bootstrap, HTML, CSS, and a bespoke theme. It serves as a digital cornerstone, showcasing creative expertise, professional achievements, and service offerings in a visually compelling and user-friendly manner.</p><p>My Personal Portfolio is a dedicated platform to showcase my skills, work, learning journey, and professional capabilities in one place.</p><p>Skilled in Laravel, CodeIgniter, WordPress, React, HTML, CSS, and JavaScript, I specialize in developing high-quality websites and web applications. My goal is to deliver innovative solutions that empower success and exceed expectations.</p>",
             "toolsUsed": ["React", "HTML", "Javascript", "Bootstrap", "CSS"],
             "projectLink": "https://divyesh-panchal.vercel.app/"
+        },
+        {
+            "id": "listen-luxury",
+            "title": "Listen Luxury",
+            "shortTitle": "Listen Luxury",
+            "shortDescription": "The ListenLuxury project is a reference web design template developed using Tailwind CSS and custom HTML/CSS. The project focuses on delivering a sleek and modern design to showcase the versatility of Tailwind CSS for building responsive and visually appealing layouts.",
+            "bannerImg": "assets/png/projects/listen-luxury.png",
+            "overviewHtml": "<p>The ListenLuxury project is a reference web design template developed using Tailwind CSS and custom HTML/CSS. The project focuses on delivering a sleek and modern design to showcase the versatility of Tailwind CSS for building responsive and visually appealing layouts.</p><p><i><b>Key Highlights:</b></i><ul><li><b>Framework:</b> Tailwind CSS for rapid UI development.</li><li><b>Customization:</b> Enhanced with custom CSS for unique styling needs.</li><li><b>Responsive Design:</b> Optimized for seamless performance across devices.</li><li><b>Purpose:</b> Created as a reference project to demonstrate web design capabilities and serve as inspiration for future projects.</li></ul></p><p>This project showcases expertise in frontend design, focusing on creating a professional, responsive, and user-friendly layout.</p>",
+            "toolsUsed": ["Tailwind", "HTML", "Javascript", "Bootstrap", "Animation"],
+            "projectLink": "https://divyesh-webdev-dp.github.io/ListenLuxury/"
         }
         
     ]
