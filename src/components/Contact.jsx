@@ -19,11 +19,41 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const validatePhone = (phone) => {
+    const phoneRegex = /^[\d\+\-\.\(\)\s]{7,20}$/;
+    return phoneRegex.test(phone);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSending(true);
     setStatusMessage({ text: "", type: "" });
 
+    // Email and phone validation
+    if (!validateEmail(formData.email)) {
+      setStatusMessage({
+        text: "Please enter a valid email address.",
+        type: "error-message",
+      });
+      setIsSending(false);
+      return;
+    }
+
+    if (formData.phone && !validatePhone(formData.phone)) {
+      setStatusMessage({
+        text: "Please enter a valid phone number.",
+        type: "error-message",
+      });
+      setIsSending(false);
+      return;
+    }
+
+    // Sending the email
     emailjs
       .send(
         "service_wkldl5f",

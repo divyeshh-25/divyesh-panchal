@@ -32,7 +32,7 @@ const About = () => {
                         I am available to contribute, learn, and grow in new opportunities. If you have a role that aligns with my skills and experience, feel free to <a href='#contact'><strong>Reach Out</strong></a>
                     </p>
                 </div>
-                <a href="index.html#contact" className="btn btn--med btn--theme dynamicBgClr">
+                <a href="#contact" className="btn btn--med btn--theme dynamicBgClr">
                     Contact
                 </a>
             </div>
