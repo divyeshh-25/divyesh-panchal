@@ -1,0 +1,8 @@
+In Social socialLinks
+{ 
+    "name": "Canva", 
+    "link": "https://divyesh-portfolio.my.canva.site/",
+    "lightImg": "assets/png/canva.png",
+    "darkImg" : "assets/png/canva.png",
+    "alt" : "Divyesh Panchal Twitter Profile"
+}

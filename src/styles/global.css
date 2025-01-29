@@ -811,3 +811,17 @@ textarea {
 .about__content-details-para a{
     text-decoration: none;
 }
+.success-message{
+    font-size: 22px;
+    margin-top: 4px;
+    color: #007f00;
+}
+.error-message{
+    font-size: 22px;
+    margin-top: 4px;
+    color: red;
+}
+.required-field{
+    color: red;
+    font-size: 16px;
+}

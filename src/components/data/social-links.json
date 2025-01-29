@@ -41,13 +41,6 @@
             "lightImg": "assets/png/twitter-light.png",
             "darkImg" : "assets/png/twitter.png",
             "alt" : "Divyesh Panchal Twitter Profile"
-        },
-        { 
-            "name": "Canva", 
-            "link": "https://divyesh-portfolio.my.canva.site/",
-            "lightImg": "assets/png/canva.png",
-            "darkImg" : "assets/png/canva.png",
-            "alt" : "Divyesh Panchal Twitter Profile"
         }
     ]
 }
