@@ -18,7 +18,7 @@
             "bannerImg": "assets/png/projects/rajasthan-travels.png",
             "overviewHtml": "<p>This project was developed for Rajasthan Travels, providing a seamless platform for booking cabs, tempos, and tours. The system is designed to enhance the travel experience for users while streamlining backend operations. Key features include:</p><ul><li><b>User Booking System:</b> Users can effortlessly book cabs, tempos, and customized tours. The booking process includes route selection, vehicle type preferences, and payment integration for a hassle-free experience.</li><li><b>Backend Management:</b>A robust admin panel empowers the team to manage tours, cab drivers, user accounts, tempos, and travel routes. The backend ensures data consistency, real-time updates, and centralized management.</li><li><b>Booking Management:</b>Admins can view, approve, or modify bookings. It also includes tools to handle cancellations, refunds, and booking schedules.</li><li><b>CMS Management:</b>Enables easy updating of website content such as tour packages, vehicle availability, FAQs, and customer testimonials, ensuring the frontend stays dynamic and user-focused.</li><li><b>Operational Efficiency:</b>Simplified management processes ensure smooth operations, better resource utilization, and enhanced service delivery.</li></ul>",
             "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-            "projectLink": "https://avichaltechnolabs.com/"
+            "projectLink": "https://staging.rajasthantravels.net/"
         },
         {
             "id": "avichal-technolabs",
@@ -28,7 +28,8 @@
             "bannerImg": "assets/png/projects/avichal-technolabs.png",
             "overviewHtml": "<p>Avichal Techno Labs was founded with a passion for building innovative software solutions that drive business growth. The website reflects this vision, focusing on a seamless user experience and a modern, visually appealing design. Key highlights include:</p><ul><li><b>Custom Theme Development:</b> Tailored WordPress theme to align with the company's branding and design requirements.</li><li><b>Responsive Design:</b> Built with Bootstrap to ensure the site adapts to all devices and screen sizes.</li><li><b>Feature-Rich CMS:</b> Integrated with WordPress for easy management of content, portfolios, and service updates.</li><li><b>Showcasing Expertise:</b> Highlights the company's focus on innovation, speed, and quality for businesses embracing digital transformation.</li></ul>",
             "toolsUsed": ["Wordpress", "Custom Theme Development", "Custom Plugin Development", "MySQL", "HTML", "CSS", "Bootstrap"],
-            "projectLink": "https://staging.rajasthantravels.net/"
+            "projectLink": "https://avichaltechnolabs.com/"
+            
         },
         {
             "id": "divyesh-panchal",
