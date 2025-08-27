@@ -17,7 +17,7 @@ const Header = () => {
         <div className="header__logo-container" onClick={() => (window.location.href = "/")}>
           <div className="header__logo-img-cont">
             <img
-              src="assets/png/divyesh-panchal.png"
+              src="assets/png/divyesh-panchal-logo.png"
               alt="Divyesh Panchal Logo"
               className="header__logo-img"
             />
