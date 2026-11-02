@@ -6,7 +6,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: black;
+    background: rgba(18, 18, 18, 0.85);
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font: 16px/1.5 sans-serif;
+    font: 16px/1.5 'Inter', sans-serif;
     z-index: 1100;
   }
   
@@ -79,7 +79,7 @@
     color: white;
     border: 0;
     border-radius: 50%;
-    background: #4169e19c;
+    background: rgba(23, 23, 23, 0.6);
   }
   
   /* –––––––––––––––––––––––––ANIMATIONS––––––––––––––––––––––––– */

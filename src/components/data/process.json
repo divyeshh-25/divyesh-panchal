@@ -1,0 +1,29 @@
+{
+    "steps": [
+        {
+            "number": "01",
+            "title": "Discover",
+            "description": "Understand the business, requirements, and objectives."
+        },
+        {
+            "number": "02",
+            "title": "Plan",
+            "description": "Define the solution, architecture, and development roadmap."
+        },
+        {
+            "number": "03",
+            "title": "Build",
+            "description": "Develop the product with clean, maintainable code."
+        },
+        {
+            "number": "04",
+            "title": "Deliver",
+            "description": "Test, optimize, and deploy the solution."
+        },
+        {
+            "number": "05",
+            "title": "Improve",
+            "description": "Provide support and continuously improve the product."
+        }
+    ]
+}

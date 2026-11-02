@@ -1,16 +1,24 @@
 {
-    "skills": 
-        [
-            "PHP",
-            "Laravel",
-            "CodeIgniter",
-            "MySQL",
-            "WordPress",
-            "React",
-            "JavaScript",
-            "CSS",
-            "HTML",
-            "Bootstrap",
-            "Tailwind"
-        ]
+    "categories": [
+        {
+            "name": "Frontend",
+            "skills": ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+        },
+        {
+            "name": "Backend",
+            "skills": ["PHP", "Laravel", "CodeIgniter", "Node.js"]
+        },
+        {
+            "name": "Database",
+            "skills": ["MySQL", "PostgreSQL"]
+        },
+        {
+            "name": "AI & Automation",
+            "skills": ["AI API Integration", "LLM Integration", "Workflow Automation"]
+        },
+        {
+            "name": "Tools & Platforms",
+            "skills": ["Git", "Docker", "REST APIs", "WordPress"]
+        }
+    ]
 }

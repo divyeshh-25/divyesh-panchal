@@ -1,46 +1,32 @@
 {
     "socialLinks": [
-        { 
-            "name": "Whatsapp", 
-            "link": "https://wa.me/9157762508",
-            "lightImg": "assets/png/whatsapp-light.png",
-            "darkImg" : "assets/png/whatsapp.png",
-            "alt" : "Divyesh Panchal Whatsapp Profile"
-        },
-        { 
-            "name": "Skype", 
-            "link": "https://join.skype.com/invite/uoXCBijyN3wL",
-            "lightImg": "assets/png/skype-light.png",
-            "darkImg" : "assets/png/skype.png",
-            "alt" : "Divyesh Panchal Skype Profile"
-        },
-        { 
-            "name": "LinkedIn", 
+        {
+            "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/divyeshhpanchal",
             "lightImg": "assets/png/linkedin-light.png",
             "darkImg" : "assets/png/linkedin.png",
             "alt" : "Divyesh Panchal Linkedin Profile"
         },
-        { 
-            "name": "GitHub", 
+        {
+            "name": "Whatsapp",
+            "link": "https://wa.me/9157762508",
+            "lightImg": "assets/png/whatsapp-light.png",
+            "darkImg" : "assets/png/whatsapp.png",
+            "alt" : "Divyesh Panchal Whatsapp Profile"
+        },
+        {
+            "name": "GitHub",
             "link": "https://github.com/divyeshh-25",
             "lightImg": "assets/png/github-light.png",
             "darkImg" : "assets/png/github.png",
             "alt" : "Divyesh Panchal Github Profile"
         },
-        { 
-            "name": "Instagram", 
+        {
+            "name": "Instagram",
             "link": "https://www.instagram.com/divyeshh_25",
             "lightImg": "assets/png/instagram-light.png",
             "darkImg" : "assets/png/instagram.png",
             "alt" : "Divyesh Panchal Instagram Profile"
-        },
-        { 
-            "name": "Twitter", 
-            "link": "https://x.com/divyeshh_25",
-            "lightImg": "assets/png/twitter-light.png",
-            "darkImg" : "assets/png/twitter.png",
-            "alt" : "Divyesh Panchal Twitter Profile"
         }
     ]
 }

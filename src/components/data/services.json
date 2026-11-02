@@ -1,0 +1,34 @@
+{
+    "services": [
+        {
+            "number": "01",
+            "title": "Full Stack Development",
+            "description": "Modern, scalable web applications built for real business needs."
+        },
+        {
+            "number": "02",
+            "title": "AI-Powered Solutions",
+            "description": "Intelligent applications, AI integrations, and workflow automation."
+        },
+        {
+            "number": "03",
+            "title": "Custom Software Development",
+            "description": "Tailored software for business operations, management, and productivity."
+        },
+        {
+            "number": "04",
+            "title": "SaaS & MVP Development",
+            "description": "Transforming startup ideas into functional, scalable products."
+        },
+        {
+            "number": "05",
+            "title": "API Development & Integration",
+            "description": "Reliable backend services and third-party integrations."
+        },
+        {
+            "number": "06",
+            "title": "Website Development",
+            "description": "Fast, responsive, conversion-focused websites."
+        }
+    ]
+}

@@ -1,6 +1,17 @@
 {
     "projects": [
         {
+            "id": "parkownerqr",
+            "title": "ParkOwnerQR - Smart Vehicle Identification for Housing Societies",
+            "shortTitle": "ParkOwnerQR",
+            "shortDescription": "ParkOwnerQR is a QR-based vehicle identification platform built for residential societies. Residents can register their vehicles and generate unique QR codes, letting others identify a vehicle and reach its owner while privacy settings control exactly what information is shown.",
+            "bannerImg": "assets/png/projects/parkownerqr.png",
+            "overviewHtml": "<p>ParkOwnerQR solves a common problem in residential societies: knowing who to contact when a parked vehicle is blocking access or needs attention, without exposing a resident's private contact details to everyone.</p><p>Each resident registers their vehicle(s) and receives a unique QR code. Scanning the code surfaces owner contact information based on privacy settings the resident configures themselves, so visibility stays in the resident's control. The platform supports multiple vehicles per resident account and includes membership verification to keep the directory accurate.</p>",
+            "toolsUsed": ["React", "Vite", "JavaScript", "Express", "Neon PostgreSQL", "Lucide React"],
+            "category": "SaaS Platform",
+            "projectLink": "https://parkownerqr.vercel.app/"
+        },
+        {
             "id": "desksters",
             "title": "Desksters - Your one-stop solution for social media needs",
             "shortTitle": "Desksters",
@@ -8,6 +19,7 @@
             "bannerImg": "assets/png/projects/desksters.png",
             "overviewHtml": "<p>Desksters is a versatile service platform providing maintenance and fire safety solutions. It includes e-commerce features for users to purchase plans and manage orders. Key integrations like PayPal for secure payments, Zoom for virtual consultations, and Chatify for real-time support ensure an interactive user experience.</p><p>The main challenges included designing a secure and scalable platform that supports diverse services, enables seamless payment processing, facilitates virtual consultations, and offers efficient customer support via live chat.</p>",
             "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "Paypal","Zoom integration", "Chatify for live chat"],
+            "category": "Service Platform",
             "projectLink": "https://desksters.com/"
         },
         {
@@ -18,7 +30,8 @@
             "bannerImg": "assets/png/projects/rajasthan-travels.png",
             "overviewHtml": "<p>This project was developed for Rajasthan Travels, providing a seamless platform for booking cabs, tempos, and tours. The system is designed to enhance the travel experience for users while streamlining backend operations. Key features include:</p><ul><li><b>User Booking System:</b> Users can effortlessly book cabs, tempos, and customized tours. The booking process includes route selection, vehicle type preferences, and payment integration for a hassle-free experience.</li><li><b>Backend Management:</b>A robust admin panel empowers the team to manage tours, cab drivers, user accounts, tempos, and travel routes. The backend ensures data consistency, real-time updates, and centralized management.</li><li><b>Booking Management:</b>Admins can view, approve, or modify bookings. It also includes tools to handle cancellations, refunds, and booking schedules.</li><li><b>CMS Management:</b>Enables easy updating of website content such as tour packages, vehicle availability, FAQs, and customer testimonials, ensuring the frontend stays dynamic and user-focused.</li><li><b>Operational Efficiency:</b>Simplified management processes ensure smooth operations, better resource utilization, and enhanced service delivery.</li></ul>",
             "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
-            "projectLink": "https://rajasthantravels.net/"
+            "category": "Travel & Booking",
+            "projectLink": "https://staging.rajasthantravels.net/"
         },
         {
             "id": "avichal-technolabs",
@@ -28,19 +41,10 @@
             "bannerImg": "assets/png/projects/avichal-technolabs.png",
             "overviewHtml": "<p>Avichal Techno Labs was founded with a passion for building innovative software solutions that drive business growth. The website reflects this vision, focusing on a seamless user experience and a modern, visually appealing design. Key highlights include:</p><ul><li><b>Custom Theme Development:</b> Tailored WordPress theme to align with the company's branding and design requirements.</li><li><b>Responsive Design:</b> Built with Bootstrap to ensure the site adapts to all devices and screen sizes.</li><li><b>Feature-Rich CMS:</b> Integrated with WordPress for easy management of content, portfolios, and service updates.</li><li><b>Showcasing Expertise:</b> Highlights the company's focus on innovation, speed, and quality for businesses embracing digital transformation.</li></ul>",
             "toolsUsed": ["Wordpress", "Custom Theme Development", "Custom Plugin Development", "MySQL", "HTML", "CSS", "Bootstrap"],
+            "category": "Agency Website",
             "projectLink": "https://avichaltechnolabs.com/"
             
-        },
-        {
-            "id": "divyesh-panchal",
-            "title": "Personal Portfolio",
-            "shortTitle": "Personal Portfolio",
-            "shortDescription": "The Personal Portfolio is a built with React designed using HTML, CSS, and a Bootstrap. It serves as a digital cornerstone, showcasing creative expertise, professional achievements, and service offerings in a visually compelling and user-friendly manner.",
-            "bannerImg": "assets/png/projects/divyesh-panchal.png",
-            "overviewHtml": "<p>The Personal Portfolio is a built with React designed using HTML, CSS & Bootstrap. It serves as a digital cornerstone, showcasing creative expertise, professional achievements, and service offerings in a visually compelling and user-friendly manner.</p><p>My Personal Portfolio is a dedicated platform to showcase my skills, work, learning journey, and professional capabilities in one place.</p><p>Skilled in Laravel, CodeIgniter, WordPress, React, HTML, CSS, and JavaScript, I specialize in developing high-quality websites and web applications. My goal is to deliver innovative solutions that empower success and exceed expectations.</p>",
-            "toolsUsed": ["React", "HTML", "Javascript", "Bootstrap", "CSS"],
-            "projectLink": "https://divyesh-panchal.vercel.app/"
-        },
+        },  
         {
             "id": "listen-luxury",
             "title": "Listen Luxury",
@@ -49,6 +53,7 @@
             "bannerImg": "assets/png/projects/listen-luxury.png",
             "overviewHtml": "<p>The ListenLuxury project is a reference web design template developed using Tailwind CSS and custom HTML/CSS. The project focuses on delivering a sleek and modern design to showcase the versatility of Tailwind CSS for building responsive and visually appealing layouts.</p><p><i><b>Key Highlights:</b></i><ul><li><b>Framework:</b> Tailwind CSS for rapid UI development.</li><li><b>Customization:</b> Enhanced with custom CSS for unique styling needs.</li><li><b>Responsive Design:</b> Optimized for seamless performance across devices.</li><li><b>Purpose:</b> Created as a reference project to demonstrate web design capabilities and serve as inspiration for future projects.</li></ul></p><p>This project showcases expertise in frontend design, focusing on creating a professional, responsive, and user-friendly layout.</p>",
             "toolsUsed": ["Tailwind", "HTML", "Javascript", "Bootstrap", "Animation"],
+            "category": "Design Template",
             "projectLink": "https://divyesh-webdev-dp.github.io/ListenLuxury/"
         }
         

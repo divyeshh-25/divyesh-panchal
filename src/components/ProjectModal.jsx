@@ -53,14 +53,14 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
               <h2 className="project-details__content-title">See Live</h2>
               <a
                 href={project.projectLink}
-                className="btn btn--med btn--theme project-details__links-btn"
+                className="btn btn--primary btn--sm project-details__links-btn"
                 target="_blank"
                 rel="noreferrer"
               >
-                Project Link
+                Visit Live Site
               </a>
               <button
-                className="btn btn--med btn--theme-inv project-details__links-btn"
+                className="btn btn--outline btn--sm project-details__links-btn"
                 onClick={onClose}
               >
                 Go Back
