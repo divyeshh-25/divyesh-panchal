@@ -8,7 +8,10 @@ const Contact = () => {
     name: "",
     email: "",
     phone: "",
+    projectType: "",
+    budgetRange: "",
     message: "",
+    company: "",
   });
 
   const [isSending, setIsSending] = useState(false);
@@ -39,6 +42,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Honeypot: real visitors never see or fill this field, bots usually do.
+    if (formData.company) {
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        projectType: "",
+        budgetRange: "",
+        message: "",
+        company: "",
+      });
+      return;
+    }
+
     setIsSending(true);
     setStatusMessage({ text: "", type: "" });
 
@@ -60,6 +78,15 @@ const Contact = () => {
       return;
     }
 
+    if (!formData.projectType) {
+      setStatusMessage({
+        text: "Please select a project type.",
+        type: "error-message",
+      });
+      setIsSending(false);
+      return;
+    }
+
     emailjs
       .send(
         "service_ediyv0i",
@@ -68,6 +95,8 @@ const Contact = () => {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
+          project_type: formData.projectType,
+          budget_range: formData.budgetRange || "Not specified",
           message: formData.message,
         },
         "CbjsvcgB-0-0_I6Da"
@@ -79,11 +108,19 @@ const Contact = () => {
             type: "success-message",
           });
           setIsSending(false);
-          setFormData({ name: "", email: "", phone: "", message: "" });
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            projectType: "",
+            budgetRange: "",
+            message: "",
+            company: "",
+          });
         },
         () => {
           setStatusMessage({
-            text: "Failed to send message. Please try again.",
+            text: "Failed to send message. Please try again, or reach out directly via WhatsApp or LinkedIn.",
             type: "error-message",
           });
           setIsSending(false);
@@ -176,7 +213,43 @@ const Contact = () => {
                 />
               </div>
               <div className="contact__form-field">
-                <label className="contact__form-label" htmlFor="message">Project Details <span className="required-field">*</span></label>
+                <label className="contact__form-label" htmlFor="projectType">Project Type <span className="required-field">*</span></label>
+                <select
+                  required
+                  className="contact__form-input"
+                  name="projectType"
+                  id="projectType"
+                  value={formData.projectType}
+                  onChange={handleChange}
+                >
+                  <option value="" disabled>Select a project type</option>
+                  <option value="Web Application">Web Application</option>
+                  <option value="SaaS / MVP">SaaS / MVP</option>
+                  <option value="API Development">API Development</option>
+                  <option value="Website">Website</option>
+                  <option value="AI Integration">AI Integration</option>
+                  <option value="Existing App Maintenance">Existing App Maintenance</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div className="contact__form-field">
+                <label className="contact__form-label" htmlFor="budgetRange">Budget Range</label>
+                <select
+                  className="contact__form-input"
+                  name="budgetRange"
+                  id="budgetRange"
+                  value={formData.budgetRange}
+                  onChange={handleChange}
+                >
+                  <option value="">Prefer not to say</option>
+                  <option value="Under $1,000">Under $1,000</option>
+                  <option value="$1,000 - $5,000">$1,000 - $5,000</option>
+                  <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+                  <option value="$10,000+">$10,000+</option>
+                </select>
+              </div>
+              <div className="contact__form-field">
+                <label className="contact__form-label" htmlFor="message">Project Description <span className="required-field">*</span></label>
                 <textarea
                   required
                   rows="4"
@@ -188,11 +261,25 @@ const Contact = () => {
                   onChange={handleChange}
                 ></textarea>
               </div>
+              <div className="contact__form-field contact__form-field--honeypot" aria-hidden="true">
+                <label htmlFor="company">Company</label>
+                <input
+                  type="text"
+                  name="company"
+                  id="company"
+                  tabIndex="-1"
+                  autoComplete="off"
+                  value={formData.company}
+                  onChange={handleChange}
+                />
+              </div>
               <button type="submit" className="btn btn--primary contact__btn" disabled={isSending}>
                 {isSending ? "Sending..." : "Send Message"}
               </button>
               {statusMessage.text && (
-                <p className={`status-message ${statusMessage.type}`}>{statusMessage.text}</p>
+                <p className={`status-message ${statusMessage.type}`} role="status" aria-live="polite">
+                  {statusMessage.text}
+                </p>
               )}
             </form>
           </div>

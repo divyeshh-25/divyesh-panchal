@@ -6,10 +6,23 @@
             "shortTitle": "ParkOwnerQR",
             "shortDescription": "ParkOwnerQR is a QR-based vehicle identification platform built for residential societies. Residents can register their vehicles and generate unique QR codes, letting others identify a vehicle and reach its owner while privacy settings control exactly what information is shown.",
             "bannerImg": "assets/png/projects/parkownerqr.png",
+            "projectType": "Personal Project",
+            "businessProblem": "Residents in housing societies often have no quick, safe way to identify who owns a parked vehicle or reach them when it's blocking access, without exposing the owner's private contact details to everyone.",
+            "challenges": "Making a vehicle instantly identifiable while keeping the owner's contact details private by default, and verifying that registered residents are who they claim to be.",
+            "solutionHtml": "<p>A QR-based identification system: each resident registers their vehicle(s) and gets a unique QR code, so anyone who scans it can reach the owner without the owner's contact details being public by default.</p>",
+            "keyFeatures": [
+                "Unique QR code generated per registered vehicle",
+                "Configurable privacy settings controlling what contact info is shown on scan",
+                "Support for multiple vehicles per resident account",
+                "Membership verification to keep the resident directory accurate"
+            ],
+            "contributionHtml": "<p>Built end-to-end as a personal project &mdash; database schema, backend API, and the frontend experience.</p>",
+            "technicalHtml": "<p>Frontend built with React and Vite; backend API with Express; data stored in Neon PostgreSQL; UI icons from Lucide React.</p>",
             "overviewHtml": "<p>ParkOwnerQR solves a common problem in residential societies: knowing who to contact when a parked vehicle is blocking access or needs attention, without exposing a resident's private contact details to everyone.</p><p>Each resident registers their vehicle(s) and receives a unique QR code. Scanning the code surfaces owner contact information based on privacy settings the resident configures themselves, so visibility stays in the resident's control. The platform supports multiple vehicles per resident account and includes membership verification to keep the directory accurate.</p>",
             "toolsUsed": ["React", "Vite", "JavaScript", "Express", "Neon PostgreSQL", "Lucide React"],
             "category": "SaaS Platform",
-            "projectLink": "https://parkownerqr.vercel.app/"
+            "projectLink": "https://parkownerqr.vercel.app/",
+            "repoLink": null
         },
         {
             "id": "desksters",
@@ -17,10 +30,23 @@
             "shortTitle": "Desksters",
             "shortDescription": "Desksters is a service-based platform offering maintenance services, fire safety, and more. Built with Laravel, it features e-commerce functionality, secure PayPal payment integration, Zoom for virtual consultations, and Chatify for live support, ensuring a seamless user experience.",
             "bannerImg": "assets/png/projects/desksters.png",
+            "projectType": "Client Project",
+            "businessProblem": "The client needed a single online platform where customers could learn about and purchase maintenance and fire-safety services, instead of handling inquiries, orders, and consultations manually.",
+            "challenges": "Supporting multiple distinct services on one platform while handling secure payments, virtual consultations, and live customer support within a single, coherent system.",
+            "solutionHtml": "<p>A Laravel-based service platform bringing e-commerce, payments, consultations, and live support together in one place for customers to buy and manage service plans.</p>",
+            "keyFeatures": [
+                "E-commerce flow for purchasing and managing service plans",
+                "Secure PayPal payment integration",
+                "Zoom integration for virtual consultations",
+                "Chatify integration for real-time customer support"
+            ],
+            "contributionHtml": "<p>Worked on building out the platform's core features, including the e-commerce flow and the payment, consultation, and live-chat integrations.</p>",
+            "technicalHtml": "<p>Built with Laravel and MySQL, with HTML, CSS, JavaScript and jQuery on the frontend, styled with Bootstrap.</p>",
             "overviewHtml": "<p>Desksters is a versatile service platform providing maintenance and fire safety solutions. It includes e-commerce features for users to purchase plans and manage orders. Key integrations like PayPal for secure payments, Zoom for virtual consultations, and Chatify for real-time support ensure an interactive user experience.</p><p>The main challenges included designing a secure and scalable platform that supports diverse services, enables seamless payment processing, facilitates virtual consultations, and offers efficient customer support via live chat.</p>",
             "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "Paypal","Zoom integration", "Chatify for live chat"],
             "category": "Service Platform",
-            "projectLink": "https://desksters.com/"
+            "projectLink": "https://desksters.com/",
+            "repoLink": null
         },
         {
             "id": "rajasthan-travels",
@@ -28,10 +54,23 @@
             "shortTitle": "Rajasthan Travels",
             "shortDescription": "I developed a comprehensive project for Rajasthan Travels, enabling users to book cabs, tempos, and tours seamlessly. The backend system allows for efficient management of tours, cab drivers, user accounts, tempos, and travel routes, ensuring smooth operations and enhanced user experience",
             "bannerImg": "assets/png/projects/rajasthan-travels.png",
+            "projectType": "Client Project",
+            "businessProblem": "Rajasthan Travels needed a way for customers to book cabs, tempos, and tours online, and a way for the business to manage drivers, vehicles, routes, and bookings without relying on manual coordination.",
+            "challenges": "Coordinating a user-facing booking flow with route and vehicle-type selection, while giving the team a reliable admin system to manage drivers, tempos, routes, cancellations, and refunds.",
+            "solutionHtml": "<p>A full booking platform pairing a customer-facing booking flow with a centralized admin system for managing drivers, vehicles, routes, and bookings.</p>",
+            "keyFeatures": [
+                "User booking flow with route selection, vehicle-type preferences, and payment integration",
+                "Admin panel for managing tours, cab drivers, user accounts, tempos, and travel routes",
+                "Booking management tools to approve, modify, cancel, and refund bookings",
+                "CMS for updating tour packages, vehicle availability, FAQs, and testimonials"
+            ],
+            "contributionHtml": "<p>Built the full booking platform and admin system end-to-end, from the customer-facing booking flow to the backend management panel.</p>",
+            "technicalHtml": "<p>Built with Laravel and MySQL, with HTML, CSS, JavaScript and jQuery on the frontend, styled with Bootstrap.</p>",
             "overviewHtml": "<p>This project was developed for Rajasthan Travels, providing a seamless platform for booking cabs, tempos, and tours. The system is designed to enhance the travel experience for users while streamlining backend operations. Key features include:</p><ul><li><b>User Booking System:</b> Users can effortlessly book cabs, tempos, and customized tours. The booking process includes route selection, vehicle type preferences, and payment integration for a hassle-free experience.</li><li><b>Backend Management:</b>A robust admin panel empowers the team to manage tours, cab drivers, user accounts, tempos, and travel routes. The backend ensures data consistency, real-time updates, and centralized management.</li><li><b>Booking Management:</b>Admins can view, approve, or modify bookings. It also includes tools to handle cancellations, refunds, and booking schedules.</li><li><b>CMS Management:</b>Enables easy updating of website content such as tour packages, vehicle availability, FAQs, and customer testimonials, ensuring the frontend stays dynamic and user-focused.</li><li><b>Operational Efficiency:</b>Simplified management processes ensure smooth operations, better resource utilization, and enhanced service delivery.</li></ul>",
             "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
             "category": "Travel & Booking",
-            "projectLink": "https://staging.rajasthantravels.net/"
+            "projectLink": "https://staging.rajasthantravels.net/",
+            "repoLink": null
         },
         {
             "id": "avichal-technolabs",
@@ -39,23 +78,46 @@
             "shortTitle": "Avichal Technolabs",
             "shortDescription": "Avichal Technolabs is a custom-built WordPress website developed using Bootstrap, HTML, CSS, and custom theme development. Designed for a graphic designing company, the website serves as a digital stemline, showcasing their creative expertise and service offerings.",
             "bannerImg": "assets/png/projects/avichal-technolabs.png",
+            "projectType": "Client Project",
+            "businessProblem": "Avichal Technolabs needed a professional website to showcase their design and development work and reflect their brand, instead of relying on a generic template.",
+            "challenges": "Building a custom WordPress theme that matched the company's specific branding and design requirements while staying fully responsive and easy to manage.",
+            "solutionHtml": "<p>A custom WordPress theme built around the company's branding, giving the team a responsive, easy-to-manage site to showcase their work.</p>",
+            "keyFeatures": [
+                "Custom WordPress theme tailored to the company's branding and design requirements",
+                "Responsive layout built with Bootstrap across device sizes",
+                "WordPress-powered CMS for managing content, portfolios, and service updates"
+            ],
+            "contributionHtml": "<p>Designed and developed the custom WordPress theme and plugin functionality for the site.</p>",
+            "technicalHtml": "<p>Built on WordPress with a custom theme and custom plugin development, styled with Bootstrap, HTML and CSS, backed by MySQL.</p>",
             "overviewHtml": "<p>Avichal Techno Labs was founded with a passion for building innovative software solutions that drive business growth. The website reflects this vision, focusing on a seamless user experience and a modern, visually appealing design. Key highlights include:</p><ul><li><b>Custom Theme Development:</b> Tailored WordPress theme to align with the company's branding and design requirements.</li><li><b>Responsive Design:</b> Built with Bootstrap to ensure the site adapts to all devices and screen sizes.</li><li><b>Feature-Rich CMS:</b> Integrated with WordPress for easy management of content, portfolios, and service updates.</li><li><b>Showcasing Expertise:</b> Highlights the company's focus on innovation, speed, and quality for businesses embracing digital transformation.</li></ul>",
             "toolsUsed": ["Wordpress", "Custom Theme Development", "Custom Plugin Development", "MySQL", "HTML", "CSS", "Bootstrap"],
             "category": "Agency Website",
-            "projectLink": "https://avichaltechnolabs.com/"
-            
-        },  
+            "projectLink": "https://avichaltechnolabs.com/",
+            "repoLink": null
+        },
         {
             "id": "listen-luxury",
             "title": "Listen Luxury",
             "shortTitle": "Listen Luxury",
             "shortDescription": "The ListenLuxury project is a reference web design template developed using Tailwind CSS and custom HTML/CSS. The project focuses on delivering a sleek and modern design to showcase the versatility of Tailwind CSS for building responsive and visually appealing layouts.",
             "bannerImg": "assets/png/projects/listen-luxury.png",
+            "projectType": "Personal Project",
+            "businessProblem": "No specific client problem &mdash; built as a self-directed project to practice and demonstrate frontend design and layout skills.",
+            "challenges": "Delivering a polished, responsive, visually engaging layout using Tailwind CSS and custom styling without a backend to lean on.",
+            "solutionHtml": "<p>A reference web design template demonstrating how far a clean layout, Tailwind CSS, and custom styling can go without a backend.</p>",
+            "keyFeatures": [
+                "Built entirely with Tailwind CSS for rapid UI development",
+                "Custom CSS layered on top for specific styling needs",
+                "Fully responsive across device sizes",
+                "Custom animation work for a polished feel"
+            ],
+            "contributionHtml": "<p>Designed and built independently as a personal frontend project.</p>",
+            "technicalHtml": "<p>Built with Tailwind CSS, HTML, JavaScript, and Bootstrap, with custom animation work.</p>",
             "overviewHtml": "<p>The ListenLuxury project is a reference web design template developed using Tailwind CSS and custom HTML/CSS. The project focuses on delivering a sleek and modern design to showcase the versatility of Tailwind CSS for building responsive and visually appealing layouts.</p><p><i><b>Key Highlights:</b></i><ul><li><b>Framework:</b> Tailwind CSS for rapid UI development.</li><li><b>Customization:</b> Enhanced with custom CSS for unique styling needs.</li><li><b>Responsive Design:</b> Optimized for seamless performance across devices.</li><li><b>Purpose:</b> Created as a reference project to demonstrate web design capabilities and serve as inspiration for future projects.</li></ul></p><p>This project showcases expertise in frontend design, focusing on creating a professional, responsive, and user-friendly layout.</p>",
             "toolsUsed": ["Tailwind", "HTML", "Javascript", "Bootstrap", "Animation"],
             "category": "Design Template",
-            "projectLink": "https://divyesh-webdev-dp.github.io/ListenLuxury/"
+            "projectLink": "https://divyesh-webdev-dp.github.io/ListenLuxury/",
+            "repoLink": "https://github.com/divyesh-webdev-dp/ListenLuxury"
         }
-        
     ]
 }

@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import TechStack from './components/TechStack';
 import Process from './components/Process';
 import About from './components/About';
+import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './styles/global.css';
@@ -17,14 +18,17 @@ function App() {
   return (
     <div>
       <Header />
-      <Hero />
-      <Intro />
-      <Expertise />
-      <Projects />
-      <TechStack />
-      <Process />
-      <About />
-      <Contact />
+      <main>
+        <Hero />
+        <Intro />
+        <Expertise />
+        <Projects />
+        <TechStack />
+        <Process />
+        <About />
+        <Experience />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

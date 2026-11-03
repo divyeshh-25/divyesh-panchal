@@ -48,6 +48,9 @@ const Projects = () => {
                 <div className="project-entry__meta">
                   <span className="project-entry__index">{String(index + 1).padStart(2, "0")}</span>
                   <span>{project.category || "Project"}</span>
+                  {project.projectType && (
+                    <span className="project-entry__type">{project.projectType}</span>
+                  )}
                 </div>
                 <h3 className="project-entry__title">{project.shortTitle}</h3>
                 <p className="project-entry__desc">{project.shortDescription}</p>

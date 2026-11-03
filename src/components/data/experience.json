@@ -1,0 +1,25 @@
+{
+    "experience": [
+        {
+            "role": "Jr. Software Engineer",
+            "company": "Webexpert Infotech",
+            "period": "April 2023 — April 2025",
+            "points": [
+                "Started my professional career building and maintaining web applications using PHP, Laravel, and WordPress.",
+                "Developed REST APIs and backend features for client business applications.",
+                "Worked directly with clients to translate requirements into working software, building the foundation of a business-first approach to development."
+            ]
+        },
+        {
+            "role": "Software Engineer",
+            "company": "9series Inc.",
+            "period": "April 2025 — Present",
+            "status": "Current",
+            "points": [
+                "Moved into a broader Software Engineer role, taking ownership of scalable web applications and APIs used in production.",
+                "Develop and maintain business management systems spanning backend services, admin dashboards, and integrations.",
+                "Collaborate with cross-functional teams to turn business requirements into reliable, maintainable software."
+            ]
+        }
+    ]
+}
