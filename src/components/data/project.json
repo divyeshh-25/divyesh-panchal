@@ -95,6 +95,44 @@
             "projectLink": "https://avichaltechnolabs.com/",
             "repoLink": null
         },
+{
+  "id": "getcodesnap",
+  "title": "GetCodeSnap - Real-Time Collaborative Code Sharing Platform",
+  "shortTitle": "GetCodeSnap",
+  "shortDescription": "GetCodeSnap is a browser-based collaborative code-sharing platform that allows developers to create shared rooms, write and edit code together in real time, and share files through a simple link. It uses WebSockets for instant synchronization without requiring user registration.",
+  "bannerImg": "assets/png/projects/getcodesnap.png",
+  "projectType": "Personal Project",
+  "businessProblem": "Developers often need a quick way to share code snippets and collaborate with others without setting up accounts, repositories, or complex development environments.",
+  "challenges": "Implementing real-time code synchronization, managing shared rooms, protecting private rooms with passkeys, and supporting temporary file sharing while keeping the experience simple.",
+  "solutionHtml": "<p>Built a browser-based collaborative code pad where users can create a room and share its URL with others. All participants can view and edit the same content in real time, with additional privacy and file-sharing features.</p>",
+  "keyFeatures": [
+    "Create shareable rooms using unique URLs",
+    "Real-time code synchronization using WebSockets",
+    "Private rooms protected with passkeys",
+    "File sharing with configurable expiration periods",
+    "Online participant count",
+    "Code editing tools including line numbers, find and replace, and line movement",
+    "Download code content as a text file",
+    "Light and dark theme support",
+    "Automatic reconnection when connection is interrupted"
+  ],
+  "contributionHtml": "<p>Designed and developed the application independently, including the frontend, backend, WebSocket-based communication, room management, passkey protection, and file-sharing functionality.</p>",
+  "technicalHtml": "<p>Frontend built with React 19 and Vite. Backend powered by Node.js with WebSockets for real-time communication. Room and file data are managed through server-side storage, with browser localStorage for client-side persistence.</p>",
+  "overviewHtml": "<p>GetCodeSnap makes sharing and collaborating on code simple. Developers can open a room, share its URL, and collaborate with others without creating an account.</p><p>The platform synchronizes code changes in real time using WebSockets and includes private rooms protected by passkeys, temporary file sharing, useful editing tools, and light and dark themes.</p>",
+  "toolsUsed": [
+    "React",
+    "React 19",
+    "Vite",
+    "JavaScript",
+    "Node.js",
+    "WebSockets",
+    "HTML",
+    "CSS"
+  ],
+  "category": "Developer Tool",
+  "projectLink": "https://getcodesnap.onrender.com/",
+  "repoLink": "https://github.com/divyeshh-25/codesnap"
+},
         {
             "id": "listen-luxury",
             "title": "Listen Luxury",
