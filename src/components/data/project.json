@@ -1,6 +1,57 @@
 {
     "projects": [
         {
+            "id": "libnextgen",
+            "title": "LibNextGen - Next Generation Library Management SaaS",
+            "shortTitle": "LibNextGen",
+            "shortDescription": "LibNextGen is a next-generation Library Management SaaS for study libraries and reading rooms, featuring an interactive Floor Planner for visual layout design and seat allocation. It centralizes branch, hall, student, staff, and fee management through a multi-tenant platform.",
+            "bannerImg": "assets/png/projects/libnextgen.png",
+            "projectType": "Personal Project",
+            "businessProblem": "Traditional libraries and reading rooms often rely on manual registers, spreadsheets and disconnected tools to manage their daily operations. Managing physical seating arrangements, designing floor layouts, tracking seat availability, allocating seats to students, and handling multiple branches, staff and fee structures can become complicated and time-consuming. Library owners need a centralized digital solution that simplifies operational management while providing better visibility and control over their physical spaces.",
+            "challenges": "Developing an interactive, database-driven Floor Planner that supports drag-and-drop positioning, object resizing, zoom controls, grid functionality and undo operations while maintaining accurate floor layouts and seat records. Ensuring that visual floor plan changes synchronize correctly with database records and student seat allocations. Additionally, implementing a scalable multi-tenant SaaS architecture with independent library organizations, separate SaaS administrator and library owner authentication, tenant-level data isolation, and flexible role-based access control.",
+            "solutionHtml": "<p>LibNextGen provides a centralized Library Management SaaS platform with an interactive visual Floor Planner as its flagship feature. Library owners can digitally design their reading spaces, create and manage multiple floors, arrange layout objects, position and resize elements, create individual seats and manage student seat allocations. The Floor Planner supports drag-and-drop interactions, zoom controls, grid functionality and undo operations, with layouts and seat configurations persisted directly in the database.</p><p>Alongside floor planning, the platform provides comprehensive management of branches, halls, students, staff, fee structures, shifts, roles and organizational settings. Its multi-tenant architecture allows multiple library organizations to independently manage their operations through a centralized platform.</p>",
+            "keyFeatures": [
+                "Interactive visual Floor Planner with drag-and-drop functionality",
+                "Multi-floor library layout design and management",
+                "Create, position, resize and organize floor plan objects",
+                "Visual seat creation and management",
+                "Database-backed floor plan saving and loading",
+                "Zoom controls, grid functionality and undo operations",
+                "Automatic synchronization of floor plan seats with database records",
+                "Student seat allocation management",
+                "Multi-tenant SaaS architecture with independent library organizations",
+                "Separate authentication for SaaS administrators and library owners",
+                "Branch management with operational configurations",
+                "Hall management with capacity configuration",
+                "Student admission and management with linked user accounts",
+                "Staff management with role-based access control",
+                "Dynamic roles and permissions with module-based authorization",
+                "Fee structure management and branch-specific shifts",
+                "General organizational settings with dynamic configuration",
+                "Archive and restore functionality across core management modules",
+                "Tenant-level data isolation and server-side authorization"
+            ],
+            "contributionHtml": "<p>Designed and developed LibNextGen end-to-end as an independent SaaS project. Responsible for product architecture, database design, multi-tenant implementation, authentication systems, backend development, CRUD modules, authorization middleware, role and permission management, interactive Floor Planner integration, database-backed floor plan persistence, and application deployment.</p>",
+            "technicalHtml": "<p>Backend developed using Laravel and PHP with a MySQL relational database. Frontend developed using Laravel Blade, Vue.js, JavaScript and Tailwind CSS with Vite. Implemented separate authentication guards, middleware-based authorization, Eloquent relationships, tenant-scoped database queries, transactional database operations and an interactive floor planning interface with persistent database storage.</p>",
+            "overviewHtml": "<p>LibNextGen is a next-generation Library Management SaaS platform designed for modern study libraries, reading rooms and educational organizations. It aims to simplify library operations by bringing physical space planning and everyday administrative activities into one centralized digital platform.</p><p><strong>Its flagship feature is an interactive visual Floor Planner</strong>, allowing library owners to digitally design and manage their physical library spaces. Owners can create multiple floors, arrange layout objects, position and resize elements, create individual seats and manage student seat allocations. The designer includes drag-and-drop interactions, zoom controls, grid functionality and undo operations, with floor layouts and seat configurations saved directly to the database.</p><p>Beyond floor planning, LibNextGen provides centralized management of branches, halls, students, staff, fee structures, shifts, roles and organizational settings. Library owners can manage their operations through a structured dashboard with configurable access permissions for staff members.</p><p>The platform follows a multi-tenant SaaS architecture, allowing multiple library organizations to operate independently. Separate SaaS administrator and library owner authentication, tenant-level data isolation and server-side role-based authorization provide a scalable foundation for managing multiple organizations.</p>",
+            "toolsUsed": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "Blade",
+                "Vue.js",
+                "JavaScript",
+                "Tailwind CSS",
+                "Vite",
+                "Select2",
+                "Git",
+                "GitHub"
+            ],
+            "category": "SaaS Platform",
+            "projectLink": "https://libnextgen.alwaysdata.net/",
+            "repoLink": null
+        },
+        {
             "id": "parkownerqr",
             "title": "ParkOwnerQR - Smart Vehicle Identification for Housing Societies",
             "shortTitle": "ParkOwnerQR",
@@ -19,7 +70,14 @@
             "contributionHtml": "<p>Built end-to-end as a personal project &mdash; database schema, backend API, and the frontend experience.</p>",
             "technicalHtml": "<p>Frontend built with React and Vite; backend API with Express; data stored in Neon PostgreSQL; UI icons from Lucide React.</p>",
             "overviewHtml": "<p>ParkOwnerQR solves a common problem in residential societies: knowing who to contact when a parked vehicle is blocking access or needs attention, without exposing a resident's private contact details to everyone.</p><p>Each resident registers their vehicle(s) and receives a unique QR code. Scanning the code surfaces owner contact information based on privacy settings the resident configures themselves, so visibility stays in the resident's control. The platform supports multiple vehicles per resident account and includes membership verification to keep the directory accurate.</p>",
-            "toolsUsed": ["React", "Vite", "JavaScript", "Express", "Neon PostgreSQL", "Lucide React"],
+            "toolsUsed": [
+                "React",
+                "Vite",
+                "JavaScript",
+                "Express",
+                "Neon PostgreSQL",
+                "Lucide React"
+            ],
             "category": "SaaS Platform",
             "projectLink": "https://parkownerqr.vercel.app/",
             "repoLink": null
@@ -43,7 +101,18 @@
             "contributionHtml": "<p>Worked on building out the platform's core features, including the e-commerce flow and the payment, consultation, and live-chat integrations.</p>",
             "technicalHtml": "<p>Built with Laravel and MySQL, with HTML, CSS, JavaScript and jQuery on the frontend, styled with Bootstrap.</p>",
             "overviewHtml": "<p>Desksters is a versatile service platform providing maintenance and fire safety solutions. It includes e-commerce features for users to purchase plans and manage orders. Key integrations like PayPal for secure payments, Zoom for virtual consultations, and Chatify for real-time support ensure an interactive user experience.</p><p>The main challenges included designing a secure and scalable platform that supports diverse services, enables seamless payment processing, facilitates virtual consultations, and offers efficient customer support via live chat.</p>",
-            "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "Paypal","Zoom integration", "Chatify for live chat"],
+            "toolsUsed": [
+                "Laravel",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "JQuery",
+                "Bootstrap",
+                "Paypal",
+                "Zoom integration",
+                "Chatify for live chat"
+            ],
             "category": "Service Platform",
             "projectLink": "https://desksters.com/",
             "repoLink": null
@@ -67,7 +136,15 @@
             "contributionHtml": "<p>Built the full booking platform and admin system end-to-end, from the customer-facing booking flow to the backend management panel.</p>",
             "technicalHtml": "<p>Built with Laravel and MySQL, with HTML, CSS, JavaScript and jQuery on the frontend, styled with Bootstrap.</p>",
             "overviewHtml": "<p>This project was developed for Rajasthan Travels, providing a seamless platform for booking cabs, tempos, and tours. The system is designed to enhance the travel experience for users while streamlining backend operations. Key features include:</p><ul><li><b>User Booking System:</b> Users can effortlessly book cabs, tempos, and customized tours. The booking process includes route selection, vehicle type preferences, and payment integration for a hassle-free experience.</li><li><b>Backend Management:</b>A robust admin panel empowers the team to manage tours, cab drivers, user accounts, tempos, and travel routes. The backend ensures data consistency, real-time updates, and centralized management.</li><li><b>Booking Management:</b>Admins can view, approve, or modify bookings. It also includes tools to handle cancellations, refunds, and booking schedules.</li><li><b>CMS Management:</b>Enables easy updating of website content such as tour packages, vehicle availability, FAQs, and customer testimonials, ensuring the frontend stays dynamic and user-focused.</li><li><b>Operational Efficiency:</b>Simplified management processes ensure smooth operations, better resource utilization, and enhanced service delivery.</li></ul>",
-            "toolsUsed": ["Laravel", "MySQL", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap"],
+            "toolsUsed": [
+                "Laravel",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "JQuery",
+                "Bootstrap"
+            ],
             "category": "Travel & Booking",
             "projectLink": "https://staging.rajasthantravels.net/",
             "repoLink": null
@@ -90,7 +167,15 @@
             "contributionHtml": "<p>Designed and developed the custom WordPress theme and plugin functionality for the site.</p>",
             "technicalHtml": "<p>Built on WordPress with a custom theme and custom plugin development, styled with Bootstrap, HTML and CSS, backed by MySQL.</p>",
             "overviewHtml": "<p>Avichal Techno Labs was founded with a passion for building innovative software solutions that drive business growth. The website reflects this vision, focusing on a seamless user experience and a modern, visually appealing design. Key highlights include:</p><ul><li><b>Custom Theme Development:</b> Tailored WordPress theme to align with the company's branding and design requirements.</li><li><b>Responsive Design:</b> Built with Bootstrap to ensure the site adapts to all devices and screen sizes.</li><li><b>Feature-Rich CMS:</b> Integrated with WordPress for easy management of content, portfolios, and service updates.</li><li><b>Showcasing Expertise:</b> Highlights the company's focus on innovation, speed, and quality for businesses embracing digital transformation.</li></ul>",
-            "toolsUsed": ["Wordpress", "Custom Theme Development", "Custom Plugin Development", "MySQL", "HTML", "CSS", "Bootstrap"],
+            "toolsUsed": [
+                "Wordpress",
+                "Custom Theme Development",
+                "Custom Plugin Development",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "Bootstrap"
+            ],
             "category": "Agency Website",
             "projectLink": "https://avichaltechnolabs.com/",
             "repoLink": null
@@ -114,7 +199,13 @@
             "contributionHtml": "<p>Designed and built independently as a personal frontend project.</p>",
             "technicalHtml": "<p>Built with Tailwind CSS, HTML, JavaScript, and Bootstrap, with custom animation work.</p>",
             "overviewHtml": "<p>The ListenLuxury project is a reference web design template developed using Tailwind CSS and custom HTML/CSS. The project focuses on delivering a sleek and modern design to showcase the versatility of Tailwind CSS for building responsive and visually appealing layouts.</p><p><i><b>Key Highlights:</b></i><ul><li><b>Framework:</b> Tailwind CSS for rapid UI development.</li><li><b>Customization:</b> Enhanced with custom CSS for unique styling needs.</li><li><b>Responsive Design:</b> Optimized for seamless performance across devices.</li><li><b>Purpose:</b> Created as a reference project to demonstrate web design capabilities and serve as inspiration for future projects.</li></ul></p><p>This project showcases expertise in frontend design, focusing on creating a professional, responsive, and user-friendly layout.</p>",
-            "toolsUsed": ["Tailwind", "HTML", "Javascript", "Bootstrap", "Animation"],
+            "toolsUsed": [
+                "Tailwind",
+                "HTML",
+                "Javascript",
+                "Bootstrap",
+                "Animation"
+            ],
             "category": "Design Template",
             "projectLink": "https://divyesh-webdev-dp.github.io/ListenLuxury/",
             "repoLink": "https://github.com/divyesh-webdev-dp/ListenLuxury"
